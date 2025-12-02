@@ -32,8 +32,8 @@ def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(10, 0)
 
-# def test_power():
-#     """Test power function."""
-#     assert power(2, 3) == 8
-#     assert power(8, 2) == 64
-#     assert power(2, 10) == 1024
+def test_power():
+    """Test power function."""
+    assert power(2, 3) == 8
+    assert power(8, 2) == 64
+    assert power(2, 10) == 1024
